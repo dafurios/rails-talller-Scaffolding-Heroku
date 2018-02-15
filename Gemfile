@@ -33,8 +33,8 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails',
 
-group: :production do
-  gem 'pg', '~> 0.2'
+group :production do
+  gem 'pg', '~> 0.20'
 end
 
 group :development, :test do
